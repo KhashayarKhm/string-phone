@@ -1,0 +1,57 @@
+{
+  "name": "string-phone",
+  "version": "0.0.0",
+  "description": "A chat app in your local network",
+  "bin": {
+    "string-phone-client": "./src/client.js",
+    "string-phone-server": "./src/server.js"
+  },
+  "scripts": {
+    "test:unit": "mocha ./test/unit/**/*.test.js",
+    "format:check": "prettier --check ./**/*.{js, json}",
+    "format:write": "prettier --write ./**/*.{js, json}",
+    "lint:check": "eslint ./**/*.js",
+    "lint:fix": "eslint --fix ./**/*.js",
+    "commit": "git-cz",
+    "release": "standard-version"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/KhashayarKhm/string-phone.git"
+  },
+  "keywords": [
+    "chat app",
+    "termial chat app",
+    "p2p chat",
+    "local chat"
+  ],
+  "author": "KhashayarKhm <khashayar.khm@protonmail.com>",
+  "license": "GPL-3.0-or-later",
+  "bugs": {
+    "url": "https://github.com/KhashayarKhm/string-phone/issues"
+  },
+  "homepage": "https://github.com/KhashayarKhm/string-phone#readme",
+  "devDependencies": {
+    "@commitlint/cli": "^17.1.2",
+    "@commitlint/config-conventional": "^17.1.0",
+    "chai": "^4.3.6",
+    "commitizen": "^4.2.5",
+    "cz-conventional-changelog": "^3.3.0",
+    "eslint": "^8.23.1",
+    "eslint-config-prettier": "^8.5.0",
+    "eslint-config-standard": "^17.0.0",
+    "eslint-plugin-import": "^2.26.0",
+    "eslint-plugin-n": "^15.2.5",
+    "eslint-plugin-promise": "^6.0.1",
+    "husky": "^8.0.1",
+    "lint-staged": "^13.0.3",
+    "mocha": "^10.0.0",
+    "prettier": "^2.7.1",
+    "standard-version": "^9.5.0"
+  },
+  "config": {
+    "commitizen": {
+      "path": "./node_modules/cz-conventional-changelog"
+    }
+  }
+}
