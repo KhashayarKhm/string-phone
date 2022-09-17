@@ -12,8 +12,8 @@
     "format:write": "prettier --write ./**/*.{js, json}",
     "lint:check": "eslint ./**/*.js",
     "lint:fix": "eslint --fix ./**/*.js",
-    "commit": "git-cz",
-    "release": "standard-version"
+    "release": "standard-version",
+    "prepare": "husky install"
   },
   "repository": {
     "type": "git",
