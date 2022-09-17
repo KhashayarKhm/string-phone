@@ -23,11 +23,13 @@ sudo yarn global add string-phone
 ## Usage
 
 Use as client :
+
 ```
 string-phone-client <host> <port>
 ```
 
 Use as server :
+
 ```
 string-phone-server <host> <port>
 ```

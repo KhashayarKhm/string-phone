@@ -5,7 +5,7 @@ const [, , host, port] = process.argv
 
 const options = {
   port: parsePort(port),
-  host: parseHost(host)
+  host: parseHost(host),
 }
 
 const rl = readline.createInterface({
