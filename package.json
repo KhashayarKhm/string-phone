@@ -1,6 +1,6 @@
 {
   "name": "string-phone",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "description": "A chat app in your local network",
   "bin": {
     "string-phone-client": "./src/client.js",
