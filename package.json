@@ -8,8 +8,8 @@
   },
   "scripts": {
     "test:unit": "mocha ./test/unit/**/*.test.js",
-    "format:check": "prettier --check ./**/*.{js, json}",
-    "format:write": "prettier --write ./**/*.{js, json}",
+    "format:check": "prettier --check .",
+    "format:write": "prettier --write .",
     "lint:check": "eslint ./**/*.js",
     "lint:fix": "eslint --fix ./**/*.js",
     "release": "standard-version",
